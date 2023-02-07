@@ -1,5 +1,5 @@
 # UnixWatch
-This is the prototype of the watch face to get familiar with unixtime in bits.
+This is the prototype of the watch face to get familiar with 32bits-unixtime.
 ![image](https://user-images.githubusercontent.com/71656810/217302803-32febfd7-f7bb-4eb0-b859-1dfcd3a27915.png)
 
 ## About
