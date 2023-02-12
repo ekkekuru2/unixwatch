@@ -34,13 +34,17 @@
       canvas {
         display: block;
         margin: auto;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
       }
     </style>
     <script>
       window.onload = () => {
         const main = document.getElementById("main");
-        const cw = main.clientWidth;
-        const ch = main.clientHeight;
+        const cw = main.clientWidth * 2;
+        const ch = main.clientHeight * 2;
 
         const mainCanvas = document.createElement("canvas");
         mainCanvas.width = ch <= cw ? ch : cw;
